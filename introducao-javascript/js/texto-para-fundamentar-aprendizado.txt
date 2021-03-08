@@ -1,0 +1,32 @@
+-var = nomenclatura para declarar algo variável.
+
+-"função".addEventListener(ação prevista, função anonima ou chamada() ){} =
+ método utilizado após variável/função para realizar alguma ação ao acontecer algo na interface(web).
+
+-"parametro event".preventDefault() = utilizada para "bloquear" ação natural de algum objeto da página web.
+    ex: botão não recarregará pag ao ser apertado.
+
+-"(local de busca, normalmente:document)".querySelector() = busca de uma determinada variável/função
+ à partir do seu "nome/classe/id".
+    ex: var exemplo = document.querySelector(#exemplo); //a função irá procurar pelo documento tudo com o id:exemplo.
+    também existe o ".querySelectorAll()", que irá buscar TODOS os elementos com tal nomenclatura em um certo local.
+
+-"função-pai".appendChild("elemento a se tornar filho"); = tornará um filho do elemento pai(citado antes da função).
+
+-"função".reset() = retornará função chamada junto ao .reset ao seu "estado inicial".
+
+-function "nome-função"("parametros necessários p ela funfar"){} = variável utilizada para criar uma função chamada
+ (pode ser utilizada em outros arq.js, chamando-a).
+
+-return "função/variável" = utilizado para finalizar função atual ou causar erro.
+
+-"(local a inserir elemento)".createElement("elemento a ser criado") = insere elemento desejado na pag web quando chamado.
+
+-"função".classList = retorna a lista de classes situados dentro da função chamada anteriormente ao .classList.
+    .add = colocado após o .classList, utilizada para adicionar uma classe à lista de classes que existem dentro de uma função.
+
+-"função".textContent = utilizado para mostrar/substituir texto contido em função chamada anteriormente.
+
+-"função".length = utilizado para mostrar quantidade de caracteres contida em função chamada anteriormente.
+
+-"função".toFixed(quantidade de números após a vírgula/ponto) = limita números após vírgula/ponto a uma quantidade de caracteres.
